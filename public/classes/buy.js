@@ -6,5 +6,7 @@ class Oweclient {
         this.transDetail = transDetail;
         this.transAmount = transAmount;
     }
-    ;
+    summary() {
+        return `Your company owes ${this.clientName} Ksh ${this.transAmount} for ${this.transDetail}`;
+    }
 }
