@@ -1,5 +1,5 @@
-import { Clientowes } from "./classes/sell";
-import { Oweclient } from "./classes/buy";
+import { Clientowes } from "./classes/sell.js";
+import { Oweclient } from "./classes/buy.js";
 //Add ! to indicate object is not null
 const form = document.querySelector('form');
 //input elements
