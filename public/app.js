@@ -1,5 +1,8 @@
 import { Clientowes } from "./classes/sell.js";
 import { Oweclient } from "./classes/buy.js";
+let invOne;
+invOne = new Clientowes("ergounand", "rtx", 90);
+console.log(invOne);
 //Add ! to indicate object is not null
 const form = document.querySelector('form');
 //input elements

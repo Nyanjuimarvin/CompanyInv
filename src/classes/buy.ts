@@ -1,3 +1,4 @@
+import { StringReturn } from "../interfaces/StringReturn.js"
 export class Oweclient {
 
     //access modifiers eliminate need for declaration before constructor
@@ -6,7 +7,7 @@ export class Oweclient {
         public transAmount: number) { }
 
 
-    summary() {
+    summary(){
         return `Your company owes ${this.clientName} Ksh ${this.transAmount} for ${this.transDetail}`
     }
 }

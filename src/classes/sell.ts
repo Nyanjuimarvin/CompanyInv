@@ -1,3 +1,4 @@
+import { StringReturn } from "../interfaces/StringReturn.js"
 export class Clientowes {
 
     //access modifiers eliminate need for declaration before constructor
