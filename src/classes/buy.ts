@@ -1,4 +1,4 @@
-class Oweclient {
+export class Oweclient {
 
     //access modifiers eliminate need for declaration before constructor
     constructor(readonly clientName: string,

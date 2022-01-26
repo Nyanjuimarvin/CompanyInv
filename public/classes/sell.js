@@ -1,5 +1,4 @@
-"use strict";
-class Clientowes {
+export class Clientowes {
     //access modifiers eliminate need for declaration before constructor
     constructor(clientName, transDetail, transAmount) {
         this.clientName = clientName;
