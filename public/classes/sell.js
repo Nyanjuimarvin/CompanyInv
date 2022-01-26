@@ -6,6 +6,6 @@ export class Clientowes {
         this.transAmount = transAmount;
     }
     summary() {
-        return `${this.clientName} Owes your company  Ksh ${this.transAmount} for ${this.transDetail}`;
+        return `${this.clientName} owes your company  Ksh ${this.transAmount} for ${this.transDetail}`;
     }
 }

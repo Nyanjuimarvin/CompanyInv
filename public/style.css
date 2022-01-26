@@ -18,6 +18,10 @@
   font-size: 17px;
 }
 
+h5{
+    color: teal;
+}
+
 /* Remove amount spin box*/
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
