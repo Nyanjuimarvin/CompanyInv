@@ -18,8 +18,20 @@
   font-size: 17px;
 }
 
+body,html{
+  background-image: url("images/back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+h1{
+  font-weight: bolder;
+}
+
 h5{
     color: teal;
+    font-weight: bold;
 }
 
 /* Remove amount spin box*/
