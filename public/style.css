@@ -1,6 +1,26 @@
+@font-face {
+  font-family: "Villeray Rounded";
+  src: url("//db.onlinewebfonts.com/t/8dcb1c192770adb70231fbbccd97b528.eot");
+  src: url("//db.onlinewebfonts.com/t/8dcb1c192770adb70231fbbccd97b528.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/8dcb1c192770adb70231fbbccd97b528.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/8dcb1c192770adb70231fbbccd97b528.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/8dcb1c192770adb70231fbbccd97b528.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/8dcb1c192770adb70231fbbccd97b528.svg#Villeray Rounded")
+      format("svg");
+}
+
+* {
+  font-family: Villeray Rounded;
+  font-size: 17px;
+}
+
 /* Remove amount spin box*/
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+  -webkit-appearance: none;
+  margin: 0;
 }
